@@ -6,8 +6,7 @@ const Footer = () => {
   const services = [
     'Lawn Care & Maintenance',
     'Landscaping Design',
-    'Landscape Construction',
-    'Commercial Snow Removal'
+    'Landscape Construction'
   ];
 
   return (

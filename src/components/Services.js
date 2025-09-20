@@ -19,11 +19,6 @@ const Services = () => {
       title: 'Landscape Construction',
       description: 'Expert construction services to bring your landscape design to reality.'
     },
-    {
-      icon: 'fas fa-snowflake',
-      title: 'Commercial Snow Removal',
-      description: 'Reliable commercial snow removal services to keep your business accessible.'
-    }
   ];
 
   useEffect(() => {
