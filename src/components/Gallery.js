@@ -21,7 +21,7 @@ const Gallery = () => {
       alt: 'Landscaping Project 4'
     },
     {
-      src: 'https://images.unsplash.com/photo-1566207474742-de921626ad0a?w=400&h=300&fit=crop',
+      src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop',
       alt: 'Landscaping Project 5'
     },
     {
