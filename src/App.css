@@ -40,19 +40,11 @@ body {
     margin: 0 auto;
 }
 
-.logo h2 {
-    color: #8B4513;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.2rem;
-}
-
-.logo .tagline {
-    color: #8B4513;
-    font-size: 0.8rem;
-    font-style: italic;
-    margin: 0;
-    opacity: 0.8;
+.logo-image {
+    height: 80px;
+    width: auto;
+    max-width: 280px;
+    object-fit: contain;
 }
 
 .nav-menu {

@@ -1,0 +1,12 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree -->
+  <circle cx="100" cy="30" r="25" fill="#4a5d23" opacity="0.8"/>
+  <circle cx="85" cy="35" r="20" fill="#5a6d33" opacity="0.9"/>
+  <circle cx="115" cy="35" r="20" fill="#5a6d33" opacity="0.9"/>
+  <rect x="95" y="50" width="10" height="25" fill="#8B4513"/>
+
+  <!-- Text -->
+  <text x="100" y="85" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#8B4513">ATELIER</text>
+  <text x="100" y="105" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#8B4513">BOTANICA</text>
+  <text x="100" y="115" text-anchor="middle" font-family="serif" font-size="8" fill="#8B4513" opacity="0.8">Where Elegance Grows, We Maintain It</text>
+</svg>
