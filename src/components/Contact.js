@@ -21,9 +21,10 @@ const Contact = () => {
       content: 'atelierbotanica.info@gmail.com'
     },
     {
-      icon: 'fab fa-facebook',
-      title: 'Facebook',
-      content: 'Follow us on Facebook'
+      icon: 'fab fa-instagram',
+      title: 'Instagram',
+      content: 'Follow us on Instagram',
+      url: 'https://www.instagram.com/atelierbotanica_hyderabad/?igsh=MXBtcWdyaTd1ZGZteA%3D%3D#'
     }
   ];
 
@@ -72,6 +73,12 @@ const Contact = () => {
     });
   };
 
+  const handleSocialClick = (url) => {
+    if (url) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   return (
     <section id="contact" className="contact" ref={contactRef}>
       <div className="container">
@@ -79,7 +86,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             {contactInfo.map((info, index) => (
-              <div key={index} className="contact-item">
+              <div key={index} className="contact-item" onClick={() => handleSocialClick(info.url)} style={{cursor: info.url ? 'pointer' : 'default'}}>
                 <i className={info.icon}></i>
                 <div>
                   <h4>{info.title}</h4>

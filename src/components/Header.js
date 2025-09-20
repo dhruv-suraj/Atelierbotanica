@@ -36,6 +36,7 @@ const Header = () => {
         <div className="nav-container">
           <div className="logo">
             <h2>ATELIER BOTANICA</h2>
+            <p className="tagline">Where Elegance Grows, We Maintain It</p>
           </div>
           <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <li className="nav-item">
