@@ -4,7 +4,7 @@ const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
-      const headerHeight = 70;
+      const headerHeight = 120;
       const targetPosition = element.offsetTop - headerHeight;
       window.scrollTo({
         top: targetPosition,

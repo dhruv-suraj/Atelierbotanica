@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logoImage from '../assets/at.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const headerHeight = 70;
+      const headerHeight = 120;
       const targetPosition = element.offsetTop - headerHeight;
       window.scrollTo({
         top: targetPosition,
@@ -35,7 +36,7 @@ const Header = () => {
       <nav className="nav">
         <div className="nav-container">
           <div className="logo">
-            <img src="/logo.svg" alt="ATELIER BOTANICA - Where Elegance Grows, We Maintain It" className="logo-image" />
+            <img src={logoImage} alt="ATELIER BOTANICA - Where Elegance Grows, We Maintain It" className="logo-image" />
           </div>
           <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <li className="nav-item">
